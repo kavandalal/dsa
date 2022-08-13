@@ -1,9 +1,13 @@
 # Bubble sort start 
 def bubble_sort(a):
-    for i in range(len(a) - 1):
-        for j in range(len(a)-1):
+    length = len(a)
+    for i in range(length - 1):
+        swapped = False
+        for j in range(length-1 - i):
             if a[j] > a[j+1]:
                 a[j], a[j + 1] = a[j + 1], a[j]
+                swapped= True
+        if not swapped: break
     return a
 # Bubble sort end 
 
