@@ -99,7 +99,7 @@ def insertion_sort(a):
 # LINKS https://www.youtube.com/watch?v=K0zTIF3rm9s&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12&index=16
 # Insertion Sort End
 
-# Shell Sort Start
+# Shell Sort Start it is replacement for insertion sort
 
 
 def shell_sort(a):
@@ -117,6 +117,22 @@ def shell_sort(a):
 # LINKS https://www.youtube.com/watch?v=VxNr9Vudp4Y&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12&index=18
 # Shell Sort End
 
+# Selection Sort Start
+
+
+def selection_sort(a):
+    length = len(a)
+    for i in range(length - 1):
+        min_index = i
+        for j in range(i+1, length):
+            if a[j] < a[min_index]:
+                min_index = j
+        if i != min_index:
+            a[i], a[min_index] = a[min_index], a[i]
+# LINKS https://www.youtube.com/watch?v=hhkLdjIimlw&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12&index=19
+
+# Selection Sort End
+
 
 a = [5, 7, 3, 4, 67, 7, 4, 3, 6, 89, 9, 78, 7, 56, 4,
      23, 12, 45, 56, 45, 523234, 6, 345, 56, 345, 45645]
@@ -126,5 +142,6 @@ x = 563
 # quick_sort(a)
 # bubble_sort(a)
 # insertion_sort(a)
-shell_sort(a)
+# shell_sort(a)
+selection_sort(a)
 print(a)
