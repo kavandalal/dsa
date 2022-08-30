@@ -1,3 +1,5 @@
+# 51 LEETCODE - N QUEEN
+
 class Solution:
 
     def solve(self, n) -> list[list[str]]:
