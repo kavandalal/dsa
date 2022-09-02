@@ -1,5 +1,8 @@
 # LEETCODE 46 Permutation
 
+# time complexity - n!
+# n being number of elements in the list
+
 class Solution:
 
     #  Approch 1 start, from Anish Malla https://www.youtube.com/watch?v=DBLUa6ErLKw
@@ -48,5 +51,6 @@ if __name__ == '__main__':
     a = ['X', 'Y', 'Z']
     # print(X.permute([1, 2, 3]))# Approach 1
     X.solve(a)  # Approach 2
+
 
 # LINKS Striver https://www.youtube.com/watch?v=YK78FU5Ffjw

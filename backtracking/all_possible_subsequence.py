@@ -7,6 +7,11 @@
 # there can be 2 types of case in making a subsequence
 # taking the i th element and not taking the i th element
 
+# time complexity - 2 ^ n
+# n being number of elements
+# 2 because there will always be 2 possibility, taking the eleemnt or not taking the element
+
+
 class Solution:
     def __init__(self):
         self.solve_store = []
