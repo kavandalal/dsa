@@ -39,3 +39,5 @@ if __name__ == '__main__':
     y = Solution()
     y.solve(x)
     print(x)
+
+# LINKS https://www.youtube.com/watch?v=FWAIf_EVUKE&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=15
