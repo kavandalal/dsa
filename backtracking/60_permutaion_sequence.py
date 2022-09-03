@@ -1,4 +1,4 @@
-# 60 LEETCODE - Permutation partition
+# 60 LEETCODE - Permutation sequence
 # find the kth permutaion of the list having n number i.e. [1,2,3,...,n]
 
 class Solution:
