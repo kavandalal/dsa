@@ -17,7 +17,8 @@ def bubble_sort(a):
 
 def binary_search(a, low, high, x):
     if high >= low:
-        mid = (high + low) // 2
+        # mid = (high + low) // 2
+        mid = high + ((low - high)//2)
         if a[mid] == x:
             return mid
         elif a[mid] > x:
