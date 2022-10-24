@@ -9,7 +9,6 @@ class Solution:
         def backtrack(n, currentStr, maxi):
             if n == 0 and uniqueChar(currentStr) > maxi:
                 maxi = len(currentStr)
-                print(currentStr, n)
                 return maxi
             if n == 0:
                 return 0
